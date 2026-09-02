@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="gh" fetch="https://github.com/" />
+  <remote name="cb" fetch="https://codeberg.org/" />
+
+  <!-- Device trees -->
+  <project path="device/xiaomi/sweet" name="SoulEye-sweet/device_xiaomi_sweet" remote="gh" revision="cnb" />
+  <project path="device/xiaomi/sm6150-common" name="SoulEye-sweet/device_xiaomi_sm6150-common" remote="gh" revision="cnb" />
+  <project path="device/xiaomi/miuicamera-sweet" name="SoulEye-sweet/device_xiaomi_miuicamera-sweet" remote="gh" revision="bq2" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/xiaomi/sweet" name="SoulEye-sweet/vendor_xiaomi_sweet" remote="cb" revision="bq2" />
+  <project path="vendor/xiaomi/sm6150-common" name="SoulEye-sweet/vendor_xiaomi_sm6150-common" remote="cb" revision="cnb" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="SoulEye-sweet/vendor_xiaomi_miuicamera-sweet" remote="cb" revision="bq2" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm6150" name="tbyool/android_kernel_xiaomi_sm6150" remote="gh" revision="17.0" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="SoulEye-sweet/hardware_xiaomi" remote="gh" revision="bq2" />
+
+  <!-- Packages apps -->
+  <project path="packages/apps/GameBar" name="SoulEye-sweet/packages_apps_GameBar" remote="gh" revision="bq2" />
+  <project path="packages/apps/KProfiles" name="SoulEye-sweet/packages_apps_KProfiles" remote="gh" revision="bq2" />
+  <project path="packages/apps/ViPER4AndroidFX" name="SoulEye-sweet/packages_apps_ViPER4AndroidFX" remote="gh" revision="bq2" />
+
+  <!-- Dolby -->
+  <project path="packages/apps/LunarisDolby" name="SoulEye-sweet/packages_apps_LunarisDolby" remote="gh" revision="bq2" />
+  <project path="vendor/sony/dolby" name="SoulEye-sweet/vendor_sony_dolby" remote="cb" revision="bq2" />
+
+  <!-- Vendor keys -->
+  <project path="vendor/evolution-priv/keys" name="SoulEye-sweet/vendor_evolution-priv_keys" remote="gh" revision="cnb" />
+</manifest>
