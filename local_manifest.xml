@@ -21,7 +21,6 @@
   <project path="hardware/xiaomi" name="SoulEye-sweet/hardware_xiaomi" remote="gh" revision="bq2" />
 
   <!-- Packages apps -->
-  <project path="packages/apps/GameBar" name="SoulEye-sweet/packages_apps_GameBar" remote="gh" revision="bq2" />
   <project path="packages/apps/ViPER4AndroidFX" name="SoulEye-sweet/packages_apps_ViPER4AndroidFX" remote="gh" revision="bq2" />
 
   <!-- Dolby -->
